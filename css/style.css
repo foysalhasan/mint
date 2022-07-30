@@ -1,0 +1,424 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+/* CUSTOM CSS */
+.light_bg {
+  background-color: #fdfdfd;
+}
+
+.btn_custom {
+  width: 200px;
+  height: 50px;
+  color: #000000;
+  background-color: #ffe100;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.btn_custom:hover {
+  color: #ffffff;
+  background-color: #b5b512;
+}
+
+a.btn_custom {
+  line-height: 35px;
+}
+
+a.btn_custom:hover {
+  color: #fff !important;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+
+.nav-item.active .nav-link {
+  color: #b5b512 !important;
+}
+
+.nav-border {
+  border-bottom: 2px solid #ffe100;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.spinner-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #b5b512;
+  z-index: 999999;
+}
+/* CUSTOM CSS */
+
+/* HEADER SECTION CSS */
+.header_area .navbar .nav-link {
+  margin-right: 80px;
+  color: #1e1e1e;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.header_area .navbar .nav-link:hover {
+  color: #b5b512;
+}
+
+.header_area .navbar .nav-link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  bottom: -1px;
+  background-color: #b5b512;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.header_area .navbar .nav-link:hover:before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+/* BANNER SECTION CSS */
+.banner_sec .banner_content p {
+  margin: 40px 0px;
+}
+/* BANNER SECTION CSS */
+
+
+/* WORK SECTION CSS */
+.work_sec .isotop_button a.active {
+  background-color: #ffe100;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.work_sec .isotop_button .btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000;
+  margin-right: 30px;
+}
+
+.work_sec .single_img {
+  overflow: hidden;
+}
+
+.work_sec .single_img .overlay {
+  opacity: 0;
+  visibility: hidden;
+  background-color: #ffe100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: 0;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.work_sec .single_img .overlay h3 {
+  text-transform: uppercase;
+}
+
+.work_sec .single_img .overlay h5 {
+  text-transform: uppercase;
+}
+
+.work_sec .single_img:hover .overlay {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+}
+/* WORK SECTION CSS */
+
+/* BRAND SECTION CSS */
+.brand_sec .brand_img img {
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.brand_sec .brand_img img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/* BRAND SECTION CSS */
+
+/* ABOUT SECTION CSS */
+.about-sec .sec_title p {
+  margin: 50px 0px;
+  max-width: 60%;
+}
+
+.about-sec .about_img {
+  overflow: hidden;
+}
+
+.about-sec .about_img .about_info {
+  background-color: #ffe100;
+  width: 250px;
+  background-color: #ffe100;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px 20px 5px;
+}
+
+.about-sec .about_img .about_info h4 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.about-sec .about_img .about_info p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.about-sec .abt_content h3 {
+  font-size: 24px;
+}
+
+.about-sec .abt_content p {
+  margin: 40px 0px;
+}
+
+.about-sec .abt_content a {
+  color: #000;
+  font-weight: 500;
+  font-size: 15px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.about-sec .abt_content a:hover {
+  color: #b5b512;
+}
+/* ABOUT SECTION CSS */
+
+
+/* BLOG SECTION CSS */
+.blog_sec .sec_title p {
+  margin: 50px 0px;
+  max-width: 60%;
+}
+
+.blog_sec .all_blog .owl-nav {
+  position: absolute;
+  right: -10px;
+  bottom: -30px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.blog_sec .all_blog .owl-nav button span {
+  display: inline-block;
+  text-align: center;
+  font-size: 30px !important;
+  color: #000 !important;
+  margin-right: 10px;
+  line-height: 30px !important;
+  width: 90px;
+  height: 40px;
+  border: 2px solid #ffe100 !important;
+  border-radius: 5px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.blog_sec .all_blog .owl-nav button span:hover {
+  background-color: #ffe100 !important;
+  color: #000;
+}
+
+.blog_sec .all_blog .owl-nav button:last-child span {
+  margin-right: 0;
+}
+
+.blog_sec .single_blog .blog_img .overlay {
+  height: 101%;
+  background-color: #ffe100;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.blog_sec .single_blog .blog_img .overlay a {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.blog_sec .single_blog .blog_content h4 {
+  font-size: 18px;
+}
+
+.blog_sec .single_blog .blog_content h4 a {
+  color: #1e1e1e;
+}
+
+.blog_sec .single_blog .blog_content span {
+  font-size: 13px;
+}
+
+.blog_sec .single_blog:hover .overlay {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+/* BLOG SECTION CSS */
+
+/* CONTACT SECTION CSS */
+.contact_sec .sec_title p {
+  margin: 50px 0px;
+  max-width: 60%;
+}
+
+.contact_sec .contact h3 {
+  margin-bottom: 30px;
+}
+
+.contact_sec .contact form input {
+  padding: 25px 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #000000 !important;
+  font-weight: 500;
+  outline: 0;
+  border: 0;
+  background-color: #f8f6f6;
+}
+
+.contact_sec .contact form input::-webkit-input-placeholder {
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+.contact_sec .contact form input:-ms-input-placeholder {
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+.contact_sec .contact form input::-ms-input-placeholder {
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+.contact_sec .contact form input::placeholder {
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+.contact_sec .contact form textarea {
+  height: 130px;
+  padding-top: 25px;
+  padding-left: 20px;
+  outline: 0;
+  border: 0;
+  background-color: #f8f6f6;
+}
+
+.contact_sec .contact form textarea::-webkit-input-placeholder {
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+.contact_sec .contact form textarea:-ms-input-placeholder {
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+.contact_sec .contact form textarea::-ms-input-placeholder {
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+.contact_sec .contact form textarea::placeholder {
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+.contact_sec .info img {
+  margin-bottom: 20px;
+}
+
+.contact_sec .info p {
+  font-size: 14px;
+}
+
+.contact_sec .social a {
+  color: #1e1e1e;
+  margin-right: 60px;
+  font-size: 30px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.contact_sec .social a:hover {
+  color: #ffe100;
+}
+/* CONTACT SECTION CSS */
+
+/* FOOTER SECTION CSS */
+.footer_area {
+  background-color: #000000;
+}
+
+.footer_area p {
+  font-size: 14px;
+}
+
+.footer_area a {
+  color: #fff;
+  font-size: 14px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.footer_area a:hover {
+  color: #ffe100;
+}
+/* FOOTER SECTION CSS */
